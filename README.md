@@ -39,7 +39,7 @@ Visit : https://blackhacwk.github.io/css-git-homework/
 [MIT License](/LICENSE)
 
 ## Features
-*Links to different sections of page
-*Alt Text for images
-*Combines CSS element selectors 
+- Links to different sections of page
+- Alt Text for images
+- Combines CSS element selectors 
 

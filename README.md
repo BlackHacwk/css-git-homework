@@ -33,10 +33,10 @@ git clone git@github.com:BlackHacwk/css-git-homework.git
 Visit : https://blackhacwk.github.io/css-git-homework/ 
 
 
-![Screenshot of the page](/css-git-homework/assets/images/HoriseionWebPage.png)
+![Screenshot of the page](/assets/images/HoriseionWebPage.png)
 
 ## License
-[MIT License](/css-git-homework/LICENSE)
+[MIT License](/LICENSE)
 
 ## Features
 

@@ -1,13 +1,16 @@
+/* Applies to the whole web page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* setting the background color of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/*This the start of formatiing and styling of the header of the page*/ 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ header {
     color: #ffffff;
 }
 
+/*setting the style and font size for the h1 header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*highlighting the SEO font in the horiSEOn text of the header*/
 header h1 .seo {
     color: grey;
     background-color: transparent;
 }
 
+/* Start of syling and formatiing of the navigation links inside of the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,11 +52,10 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* End of the styling for the navigation links and the 
+   end of the formating and styling of the header*/
 
-p {
-    font-size: 16px;
-}
-
+/* This is a large image between the header and the main part of the page. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +65,50 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* This is the start of the style and formatting being applied to the main part of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/*this will move the images in the content section to the left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*this will move the images in the content section to the right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
+/*setting the size of the font for paragraphs*/
+p {
+    font-size: 16px;
+}
+
+/*This part applies styling and formating to the left side of the main section of the page */
+.left-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*image size */
+.left-section img {
+    max-height: 200px;
+}
+
+/*formating for the headers*/
+.left-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This applies style and formatting to the benifts section which is on the right side of the page */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,113 +120,33 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*styling for the benefits section*/
+.benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*formating for the headers in the benefits section*/
+.benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*formating for the images in the benefits section*/
+.benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/*End of formatting and styling of the main section*/
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This will apply style and formatiing to the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+   
 }
 
 .footer h2 {

@@ -39,8 +39,10 @@ Visit : https://blackhacwk.github.io/css-git-homework/
 [MIT License](/LICENSE)
 
 ## Features
-
+-Bullet List
 Links to different sections of page
+-Bullet List item 2
 Alt Text for images
+-Bullet List item 3 
 Combines CSS element selectors 
 
